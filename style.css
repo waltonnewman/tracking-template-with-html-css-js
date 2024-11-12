@@ -1,0 +1,499 @@
+*{
+    box-sizing: border-box;
+}
+.container1{
+    display: grid;
+    grid-template-columns: auto 45%;
+    grid-gap: 10px;
+    background-color: rgb(0, 0, 70);
+
+    padding: 20px;
+
+}
+
+.btn1{
+    font-family: sans-serif;
+    font-size: 24px;
+    background-color: rgb(0, 0, 70);
+    color: white;
+    border: none;
+}
+
+.btn2{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgb(0, 0, 150);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+
+.btn3{
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: rgb(250, 250, 250);
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    float: right;
+    margin-right: 30px;
+    font-weight: bold;
+
+    
+}
+
+@media screen and (max-width: 600px){
+    .btn1, .btn3{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .container1{
+        grid-template-columns:20% auto 20%;
+        
+    }
+}
+
+
+.container2{
+    display: grid;
+    grid-template-columns: auto 5% 15% 5% 15% 5% 15%;
+    padding-top: 20px;
+
+}
+
+
+.container3{
+    display: grid;
+    grid-template-columns:10% auto 25% 10%;
+
+    padding: 10PX;
+
+    
+
+}
+
+ @media screen and (max-width: 600px){
+    .container3{
+    display: none;
+
+}
+
+}
+
+
+
+
+a{
+text-decoration: none;
+font-weight: bold;
+padding: 10px;
+font-size: 18px;
+
+color: black;
+}
+
+@media screen and (max-width: 600px){
+    .div1{
+        width: 70%;
+        
+    }
+}
+
+.div2{
+display: block;
+}
+
+
+@media screen and (max-width: 600px){
+    .div2{
+        display: none;
+        
+    }
+}
+
+.div3{
+display: none;
+}
+
+
+@media screen and (max-width: 600px){
+    .div3{
+        display: block;
+
+        width:30%;
+        margin-left: 220px;
+
+    }
+}
+
+@media screen and (max-width: 600px){
+    .logo{
+
+        width:100%;
+
+    }
+}
+
+.navbar{
+    display: none;
+
+    z-index: 1;
+}
+
+@media screen and (max-width: 600px){
+    .navbar{
+
+        display: none;
+
+        
+
+    }
+}
+
+a.items{
+    display: block;
+    text-align: center;
+
+}
+
+.container4{
+    display: grid;
+
+    grid-template-columns: 10% auto auto auto 40% 10%;
+
+    margin-top: 20px;
+
+    text-align: center;
+
+    font-family: sans-serif;
+}
+
+
+@media screen and (max-width: 600px){
+    .container4{
+
+        grid-template-columns: auto;
+
+        
+
+    }
+}
+
+
+.container5{
+    display: grid;
+
+    grid-template-columns: 2% 40% 10% 40%;
+
+    font-family: sans-serif;
+}
+
+
+@media screen and (max-width: 600px){
+    .container5{
+
+        grid-template-columns: auto;
+
+        margin-top: 20px;
+
+    background-color:rgb(0, 0, 70);
+        
+
+    }
+}
+
+
+
+
+
+
+
+
+
+.container6{
+    display: grid;
+
+    grid-template-columns: 25% 45% 25%;
+
+}
+
+@media screen and (max-width: 600px){
+    .container6{
+
+        grid-template-columns: 80%;
+
+
+
+        
+
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .track{
+
+        width: 100%;
+
+        margin-left: 60px;
+
+        height: 500px;
+        
+
+    }
+}
+
+
+
+.input1{
+    width: 50%; 
+    height: 25%;
+}
+
+@media screen and (max-width: 600px){
+    .track-div{
+    height: 700px;
+}
+        
+
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .input1 {
+
+    width: 90%;
+        
+
+    }
+}
+
+
+.round{
+    width: 80%;
+
+    border-radius: 80px;
+}
+
+@media screen and (max-width: 600px){
+    .round{
+
+        width: 150px;
+        height: 150px;
+
+        border-radius: 80px;
+
+        
+
+    }
+}
+
+.btn4{
+    color: blue;
+    
+
+    padding: 10px;
+
+    border-radius: 8px;
+
+    background-color: rgba(250, 250, 250, 0.45);
+
+    border: none;
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin-top: 70px;
+}
+
+.btn5{
+    color: blue;
+    
+
+    padding: 10px;
+
+    border-radius: 8px;
+
+    background-color: rgba(250, 250, 250,);
+
+    border: none;
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin-left: 10px;
+}
+
+
+.btn6{
+    color: white;
+    
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    background-color: rgba(0, 0, 100);
+    opacity: 0.8;
+
+    border: none;
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin-left: 10px;
+}
+
+.container7{
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+
+}
+
+    @media screen and (max-width: 600px){
+    .container7{
+ grid-template-columns: auto;
+
+        
+
+    }
+}
+
+.container8{
+    display: grid;
+    grid-template-columns: 10% auto auto auto auto 10%;
+    grid-gap: 15px;
+    text-align: center;
+
+}
+
+
+
+.value-services{
+    
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 10px;
+    border: solid white 4px;
+    margin-top: -100px;
+    background-color: white;
+
+}
+
+@media screen and (max-width: 600px){
+    .container8{
+ grid-template-columns: auto;
+
+ margin-top: -100px;
+
+        
+
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .value-services{
+ margin-top: -10px;
+
+        
+
+    }
+}
+
+.container9{
+    display: grid;
+    grid-template-columns: 5% auto auto 5%;
+    grid-gap: 10px;
+    
+
+}
+
+    @media screen and (max-width: 600px){
+    .container9{
+ grid-template-columns: auto;
+
+        
+
+    }
+}
+
+.container10{
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-gap: 10px;
+    
+
+}
+
+    @media screen and (max-width: 600px){
+    .container10{
+ grid-template-columns: auto;
+
+        
+
+    }
+}
+
+.form1{
+    display: grid;
+    grid-template-columns: 5% 40% 40% 5%;
+    grid-gap: 5px;
+}
+
+
+    @media screen and (max-width: 600px){
+    .form1{
+ grid-template-columns: auto;
+
+        
+
+    }
+}
+
+
+.container11{
+    display: grid;
+    grid-template-columns: 23% 23% 24% auto;
+    grid-gap: 10px;
+
+      background-color:rgb(0, 0, 70);
+    
+
+}
+
+    @media screen and (max-width: 600px){
+    .container11{
+ grid-template-columns: auto;
+
+        
+
+    }
+}
+
+.foot{
+    box-shadow: 4px 4px 4px black;
+
+    text-align: center;
+}
+
+.hr-foot {
+display:none ;
+}
+
+#foot1:hover .hr-foot {
+
+display: block;
+
+color: white;
+}
